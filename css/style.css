@@ -1,0 +1,39 @@
+body {
+    background: #f1f1f1;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav {
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.nav-imagenes, .nav-gmail {
+    padding-left: 15px;
+}
+
+.nav-user {
+    padding: 4px;
+}
+
+.nav-user img {
+    width: 32px;
+}
+
+.nav-menu {
+    padding: 10px;
+}
+
+.nav-menu img {
+    width: 20px;
+}
+

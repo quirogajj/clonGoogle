@@ -3,37 +3,22 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.nav {
-    width: 100%;
-    padding: 6px;
+.content {
     display: flex;
-    justify-content: flex-end;
-}
-
-.container {
-    margin: 0;
-    display: flex;
-    flex-direction: row;
     justify-content: end;
+    margin: 16px;
 }
 
-.nav-imagenes, .nav-gmail {
-    padding-left: 15px;
+.img-u {
+    width: 45px;
+}
+.img-m {
+    width: 35px;
 }
 
-.nav-user {
-    padding: 4px;
+.img-u, .img-m {
+    padding-right: 16px;
 }
-
-.nav-user img {
-    width: 32px;
+.imagenes, .gmail {
+    padding-right: 16px;
 }
-
-.nav-menu {
-    padding: 10px;
-}
-
-.nav-menu img {
-    width: 20px;
-}
-
